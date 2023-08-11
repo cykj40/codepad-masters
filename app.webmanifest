@@ -1,5 +1,28 @@
 {
     "name": "Codepad Masters, the best pwa in town",
     "short_name": "Codepad Masters",
+    "start_url": "/",
+    "orientation": "landscape",
+    "theme_color": "#ffc252",
+    "scope": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
     
 }
